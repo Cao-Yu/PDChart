@@ -79,6 +79,7 @@ dataItem.dataArray = [PieDataItem(description: "first pie", color: lightGreen, p
 PieDataItem(description: nil, color: middleGreen, percentage: 0.1),
 PieDataItem(description: "third pie", color: deepGreen, percentage: 0.6)]
 var pieChart: PDPieChart = PDPieChart(frame: CGRectMake(0, 100, 320, 320), dataItem: dataItem)
+pieChart.strokeChart()
 ```
 
 ## License
